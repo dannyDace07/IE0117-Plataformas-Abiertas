@@ -1,0 +1,24 @@
+[Unit]
+Description=Servicio de Monitoreo de Cambios en Directorios
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/danny_ace/Desktop/superrandom/lab2_ejercicio4.sh
+WorkingDirectory=/home/danny_ace/Desktop/superrandom
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+
+
+
+
+
+
+
+
+
